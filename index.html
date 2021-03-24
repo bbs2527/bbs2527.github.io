@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS @font-face Feature</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header section-->
+
+    <header>
+        <h1>HTML/CSS: <span>@font-face</span></h1>
+        <p>Helpful tips to better understand <span>@font-face</span> feature.</p>
+    </header>
+
+    <!--@font-face section-->
+    <section id="font-face">
+        <h2>What is <span>@font-face</span>?</h2>
+        <table id="font-face-table">
+            <tr>
+                <th>Definition</th>
+                <td>
+                    A special rule that allows font to be used even if the user doesn 't have it installed on their computer.</br>
+                    Make sure to use the font-family and src properties.
+                </td>
+            </tr>
+            <tr>
+                <th>src</th>
+                <td>
+                    Specifies the path; multiple different paths may be needed (refer to more details in formats below).
+                </td>
+            </tr>
+            <tr>
+                <th>format</th>
+                <td>
+                    How the font is supplied and this varies by browser (be aware of the license agreements).
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <aside id="example">
+            <p><span>@font-face</span> CSS Code Example</p>
+            <hr>
+            <code>@font-face{<br>
+                font-family:'ChunkFiveRegular'; src:url('fonts/chunkfive.eot'); src:url('fonts/chunkfive.woff'); src:url('fonts/chunkfive.tff'); src:url('fonts/chunkfive.svg');} 
+            </code>
+        </aside>
+    </section>
+
+    <!--font format section-->
+    <section id="font-format">
+        <h2>Font Formats</h2>
+        <table id="font-format-table">
+            <tr>
+                <th>Format</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <th>.eot</th>
+                <td>
+                    Stands for
+                    <i>embedded open type</i>.</br>
+                    An uncompressed font created by Microsoft.
+                </td>
+            </tr>
+            <tr>
+                <th>.woff or .woff2</th>
+                <td>
+                    Stands for <i>web open font format</i>.</br>
+                    Comes in a compressed format and .woff2 is the upgraded version to help increase speed of the web browser.
+                </td>
+            </tr>
+            <tr>
+                <th>.tff/otf</th>
+                <td>Stands for <i>TrueType font</i> and <i>OpenType Font</i>.</br>TFF was created by Apple and has the ability to be resized to any size without losing quality when printed.</br> OTF was developed by Adobe and Microsoft and are also fully
+                    scalable without losing quality.
+                </td>
+            </tr>
+            <tr>
+                <th>.svg</th>
+                <td>Stands for <i>Scalable Vector Graphics</i>.</br> Mainly used to display vector images in XML format.
+                </td>
+            </tr>
+        </table>
+
+    </section>
+    <br>
+    <hr>
+    <!--Resources Section-->
+    <footer>
+        <h2>Sources used for Cheatsheet</h2>
+        <p><a href="https://fileinfo.com/filetypes/font" target="_blank">Font Files</a> , <a href="http://htmlandcssbook.com/ " target="_blank">HTML&CSS</a>, &
+            <a href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp" target="_blank">w3schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

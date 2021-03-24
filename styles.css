@@ -1,0 +1,132 @@
+/* head */
+
+@font-face {
+    font-family: 'Secuela Regular';
+    src: url(./fonts/Secuela-Bold.otf);
+    src: url(./fonts/Secuela-Bold.ttf);
+    src: url(./fonts/Secuela-Italic.otf);
+    src: url(./fonts/Secuela-Italic.ttf);
+    src: url(./fonts/Secuela-Regular.otf);
+    src: url(./fonts/Secuela-Regular.ttf);
+}
+
+
+/* body */
+
+body {
+    border: 5px solid #000;
+    margin: 40px;
+    max-width: 900px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* header */
+
+header {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: bisque;
+    max-width: 800px;
+    border-style: dotted;
+}
+
+h1 {
+    font-family: 'Secuela Regular', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 5px;
+}
+
+h1+p {
+    font-family: 'Secuela Regular', sans-serif;
+    font-size: 16px;
+}
+
+span {
+    font-family: monospace;
+    color: crimson;
+    font-weight: bold;
+}
+
+
+/* font-face-section */
+
+#font-face {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Secuela Regular', sans-serif;
+}
+
+#example {
+    font-size: 15px;
+}
+
+aside>p {
+    font-family: 'Secuela Regular', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside {
+    border: 1px solid black;
+    padding: 10px 15px;
+    width: 400px;
+    margin: auto;
+}
+
+
+/* font-format-section */
+
+#font-format {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Secuela Regular', sans-serif;
+}
+
+
+/* tables */
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#font-face-table {
+    margin: auto;
+    padding: 5px;
+    max-width: 800px;
+}
+
+#font-format-table {
+    margin: auto;
+    padding: 5px;
+    max-width: 800px;
+}
+
+i {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/* footer/resource-section */
+
+footer {
+    margin: auto;
+    padding: 5px;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Secuela Regular', sans-serif;
+    line-height: 15px;
+}
