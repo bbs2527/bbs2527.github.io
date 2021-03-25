@@ -6,3 +6,6 @@ I am currently about 10% of the way through the Front End Development Career Pat
 I made a cheat sheet utilizing HTML & CSS focusing on the CSS @font-face feature. 
 
 Can't wait to learn and incorporate more in the future!
+
+Here is the live site :). 
+https://bbs2527.github.io/
