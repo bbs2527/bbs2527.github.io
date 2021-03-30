@@ -32,7 +32,7 @@ header {
     padding: 5px;
     text-align: center;
     background-color: bisque;
-    max-width: 800px;
+    width: 85%px;
     border-style: dotted;
 }
 
@@ -40,7 +40,7 @@ h1 {
     font-family: 'Secuela Regular', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    line-height: 5px;
+    margin: auto;
 }
 
 h1+p {
@@ -76,9 +76,10 @@ aside>p {
 
 aside {
     border: 1px solid black;
-    padding: 10px 15px;
-    width: 400px;
+    padding: 2%;
     margin: auto;
+    min-width: 50px;
+    max-width: 400px;
 }
 
 
@@ -100,6 +101,7 @@ th {
     border-collapse: collapse;
     border: 1px solid black;
     padding: 3px;
+    text-align: left;
 }
 
 #font-face-table {
